@@ -14,7 +14,7 @@ public class Modifikatorer {
         modifikator1.publicTall = 3;
         System.out.println(modifikator1.publicTall);
 
-        modifikator1.finalTall = 3;
+        // modifikator1.finalTall = 3;
 
         modifikator1.staticTall = 21;
         System.out.println(modifikator2.staticTall);
