@@ -35,7 +35,8 @@ public class StreamExample {
     }
 
     public double getAverageScore() {
-        return ((double) this.getGradesAsNumbers().stream().reduce(0, (a, b) -> a + b)) / this.javaGrades.stream().filter(karakter -> karakter != 'F').count();
+        return ((double) this.getGradesAsNumbers().stream().reduce(0, (a, b) -> a + b)) / 
+        this.javaGrades.stream().filter(karakter -> karakter != 'F').count();
     }
 
     public static void main(String[] args) {
