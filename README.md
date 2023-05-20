@@ -59,7 +59,7 @@ Praktisk informasjon finner man på fagsider / blackboard
 **Objektorienterte teknikker**:
 
 - ~~delegering~~
-- ~~observatør-observert~~
+- observatør-observert
 
 ~~**JavaFX og FXML**~~:
 
