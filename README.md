@@ -12,7 +12,7 @@ Praktisk informasjon finner man på fagsider / blackboard
 ## Timeplan:
 - 12.15 - 12.30 Introduksjon
 - 12.30 - 13.00 Modifikatorer og arv
-- 13.15 - 14.00 Funksjonelle grensesnitt, streams, iterasjon og comparison
+- 13.15 - 14.00 Streams, iterasjon og comparison
 - 14.15 - 15.00 Observables, varargs og filbehandling
 - 15.15 - 16.00 Gjennomgang av tidligere eksamen
 - 16.15 - 16.30 Gjennomgang av tidligere eksamen
