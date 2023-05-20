@@ -53,7 +53,7 @@ Praktisk informasjon finner man på fagsider / blackboard
 - Exception-hierarkiet og checked vs. unchecked exceptions
 - IO med byte- og tegnstrømmer (InputStream/OutputStream og Reader/Writer med subklasser) og filer
 - Funksjonelle grensesnitt og Java 8-syntaksen for "funksjoner", altså instansiering av funksjonelle grensesnitt.
-- Standard funksjonelle grensesnitt, inkl. Predicate<T>, Consumer<T>, Supplier<T>, Function<T, R>, BiFunction<T1, T2, R>, BinaryOperator<T> og UnaryOperator<T>
+- ~~Standard funksjonelle grensesnitt, inkl. Predicate<T>, Consumer<T>, Supplier<T>, Function<T, R>, BiFunction<T1, T2, R>, BinaryOperator<T> og UnaryOperator<T>~~
 - Behandling av data med Stream-teknikken (ikke IO, men "objekt-strømmer")
 
 **Objektorienterte teknikker**:
