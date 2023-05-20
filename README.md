@@ -40,7 +40,7 @@ Praktisk informasjon finner man på fagsider / blackboard
     - ~~sekvensdiagrammer~~
     - ~~klassediagrammer (klasser og assosiasjoner inkl. kardinalitet)~~
 - ~~testing av objektoppførsel (JUnit og generell testbeskrivelse lik det gjort på forelesning og i øvinger)~~
-- unntakshåndtering
+- ~~unntakshåndtering~~
 - arv (bruk av extends og super) og abstrakte klasser (også i kombinasjon med grensesnitt)
 
 **Java-teknikker:**
@@ -53,12 +53,12 @@ Praktisk informasjon finner man på fagsider / blackboard
 - Exception-hierarkiet og checked vs. unchecked exceptions
 - IO med byte- og tegnstrømmer (InputStream/OutputStream og Reader/Writer med subklasser) og filer
 - Funksjonelle grensesnitt og Java 8-syntaksen for "funksjoner", altså instansiering av funksjonelle grensesnitt.
-- Standard funksjonelle grensesnitt, inkl. Predicate<T>, Consumer<T>, Supplier<T>, Function<T, R>, BiFunction<T1, T2, R>, BinaryOperator<T> og UnaryOperator<T>
+- ~~Standard funksjonelle grensesnitt, inkl. Predicate<T>, Consumer<T>, Supplier<T>, Function<T, R>, BiFunction<T1, T2, R>, BinaryOperator<T> og UnaryOperator<T>~~
 - Behandling av data med Stream-teknikken (ikke IO, men "objekt-strømmer")
 
 **Objektorienterte teknikker**:
 
-- delegering
+- ~~delegering~~
 - observatør-observert
 
 ~~**JavaFX og FXML**~~:
