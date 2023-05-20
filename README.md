@@ -40,7 +40,7 @@ Praktisk informasjon finner man på fagsider / blackboard
     - ~~sekvensdiagrammer~~
     - ~~klassediagrammer (klasser og assosiasjoner inkl. kardinalitet)~~
 - ~~testing av objektoppførsel (JUnit og generell testbeskrivelse lik det gjort på forelesning og i øvinger)~~
-- unntakshåndtering
+- ~~unntakshåndtering~~
 - arv (bruk av extends og super) og abstrakte klasser (også i kombinasjon med grensesnitt)
 
 **Java-teknikker:**
@@ -58,8 +58,8 @@ Praktisk informasjon finner man på fagsider / blackboard
 
 **Objektorienterte teknikker**:
 
-- delegering
-- observatør-observert
+- ~~delegering~~
+- ~~observatør-observert~~
 
 ~~**JavaFX og FXML**~~:
 
