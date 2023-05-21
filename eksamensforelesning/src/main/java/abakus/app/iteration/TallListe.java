@@ -10,8 +10,7 @@ public class TallListe implements Iterable<Integer> {
 
     @Override
     public Iterator<Integer> iterator() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'iterator'");
+        return mineTall.iterator();
     }
     
 }

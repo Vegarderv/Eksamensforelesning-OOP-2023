@@ -31,14 +31,13 @@ public class IHaveValues {
 
     public static void main(String[] args) {
         IHaveValues values = new IHaveValues();
-        System.out.println(values);
 
+        values.getString2().addObserver(new Observer());
         values.getString2().addObserver(new Observer());
         values.getString3().addObserver((oldValue, newValue) -> {
             System.out.println(oldValue + " -> " + newValue);
         });
 
         values.getString3().setValue("Jeg er endret");
-        System.out.println(values);
     }
 }
