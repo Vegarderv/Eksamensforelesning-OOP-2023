@@ -4,11 +4,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamExample {
 
-    private static final List<Character> GRADES = Arrays.asList('F', 'E', 'D', 'C', 'B', 'A');
+    private final List<Character> GRADES = Arrays.asList('F', 'E', 'D', 'C', 'B', 'A');
     private List<Character> javaGrades;
 
     public StreamExample() {
@@ -27,11 +29,14 @@ public class StreamExample {
     }
 
     public int getNumOfGrades(char grade) {
-        return (int) this.javaGrades.stream().filter(javaGrade -> javaGrade == grade).count();
+        return (int) this.javaGrades.stream().filter(hei -> hei == grade).count();
     }
 
     public List<Integer> getGradesAsNumbers() {
-        return this.javaGrades.stream().map(grade -> GRADES.indexOf(grade)).toList();
+        List<Integer> grades = this.javaGrades.stream().map(grade -> GRADES.indexOf(grade)).toList();
+        grades = new ArrayList<>(grades);
+        grades.add(5);
+        return null;
     }
 
     public double getAverageScore() {
@@ -42,9 +47,9 @@ public class StreamExample {
     public static void main(String[] args) {
         StreamExample ex = new StreamExample();
         System.out.println(ex.getJavaGrades());
-        System.out.println(ex.getNumOfGrades('B'));
-        System.out.println(ex.getGradesAsNumbers());
-        System.out.println(ex.getAverageScore());
+        // System.out.println(ex.getNumOfGrades('B'));
+         System.out.println(ex.getGradesAsNumbers());
+        //System.out.println(ex.getAverageScore());
     }
 
 }

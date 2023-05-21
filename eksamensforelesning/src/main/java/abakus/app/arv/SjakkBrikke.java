@@ -18,14 +18,14 @@ public abstract class SjakkBrikke implements IBrikke {
         return y;
     }
 
-    protected void setX(int x) {
-        if (x <= 8 && x >= 0) {
+    protected final void setX(int x) {
+        if (x <= 7 && x >= 0) {
             this.x = x;
         }
     }
 
     protected void setY(int y) {
-        if (y <= 8 && y >= 0) {
+        if (y <= 7 && y >= 0) {
             this.y = y;
         }
     }

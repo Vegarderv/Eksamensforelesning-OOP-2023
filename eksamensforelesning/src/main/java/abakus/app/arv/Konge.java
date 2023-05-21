@@ -4,6 +4,13 @@ public class Konge extends SjakkBrikke{
 
     public Konge(int x, int y) {
         super(x, y);
+        
+    }
+
+
+
+    public Konge() {
+        super(3, 0);
     }
 
     @Override

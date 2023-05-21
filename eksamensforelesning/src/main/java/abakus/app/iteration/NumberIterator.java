@@ -24,5 +24,13 @@ public class NumberIterator implements Iterator<Integer> {
         currentInt++;
         return currentInt - 1;
     }
+
+    public static void main(String[] args) {
+        NumberIterator iter = new NumberIterator(7);
+
+        while (iter.hasNext()) {
+            System.out.println(iter.next());
+        }
+    }
     
 }

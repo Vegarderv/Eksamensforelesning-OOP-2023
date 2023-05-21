@@ -3,7 +3,7 @@ package abakus.app.iteration;
 import java.util.Arrays;
 import java.util.Iterator;
 
-public class IteratorExample {
+public class IteratorExample implements Iterable<Integer> {
 
     public static void main(String[] args) {
         Iterable<String> list = Arrays.asList("H", "e", "i", "p", "å");

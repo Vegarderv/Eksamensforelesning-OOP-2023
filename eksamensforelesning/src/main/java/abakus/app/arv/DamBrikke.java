@@ -18,13 +18,13 @@ public class DamBrikke implements IBrikke {
     }
 
     protected void setX(int x) {
-        if (x <= 8 && x >= 0) {
+        if (x <= 7 && x >= 0) {
             this.x = x;
         }
     }
 
     protected void setY(int y) {
-        if (y <= 8 && y >= 0) {
+        if (y <= 7 && y >= 0) {
             this.y = y;
         }
     }
